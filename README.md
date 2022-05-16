@@ -1,0 +1,2 @@
+# Please-select-a-lang
+The Program in the Run above this line won't launch in Windows 10 MsgBox("","Test","$ProgramFiles - " &amp; $ProgramFiles &amp; @CRLF &amp; "_OSVersion() -  " &amp; _OSVersion()) WinWait("TestRun","Please select a lang") If Not WinActive("TestRun","Please select a lang") Then WinActivate("TestRun", "Please select a lang") WinWaitActive("TestRun","Please select a lang") Send("{ENTER}") WinWait("TestRun","")
